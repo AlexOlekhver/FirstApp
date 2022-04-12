@@ -17,6 +17,7 @@ namespace ConsoleApp2
             Console.WriteLine("My she size is " + Shoes);
             Console.WriteLine("InitMaxValue {0}", int.MaxValue);
             Console.WriteLine("InitMinValue {0}", int.MinValue);
+                        
             Console.ReadKey();
         }
     }
