@@ -6,12 +6,15 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Jane";
-            Console.WriteLine(MyName);
-            Console.WriteLine("Hi World");
-            Console.WriteLine("Im 27 years old");
-            Console.WriteLine("My name is Jane");
+            string MyName = "Jane";
+            byte Age = 27;
+            bool Pet = true;
+            double Shoes = 37.5;
+
+            Console.WriteLine("Me name is" + MyName);
+            Console.WriteLine("My age is " + Age);
+            Console.WriteLine("Do i have a pet? " + Pet);
+            Console.WriteLine("My she size is " + Shoes);
             Console.ReadKey();
         }
     }
