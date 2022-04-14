@@ -6,18 +6,15 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string MyName = "Jane";
-            byte Age = 27;
-            bool Pet = true;
-            double Shoes = 37.5;
+            Console.Write("Enter your name:");
+            var name = Console.ReadLine();
+            Console.Write("Enter your age:");
+            var age = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.Write("Enter your birhday:");
+            var birthday = Console.ReadLine();
+            Console.WriteLine("Your birthday is {0}", birthday);
 
-            Console.WriteLine("Me name is " + MyName);
-            Console.WriteLine("My age is " + Age);
-            Console.WriteLine("Do i have a pet? " + Pet);
-            Console.WriteLine("My she size is " + Shoes);
-            Console.WriteLine("InitMaxValue {0}", int.MaxValue);
-            Console.WriteLine("InitMinValue {0}", int.MinValue);
-                        
             Console.ReadKey();
         }
     }
